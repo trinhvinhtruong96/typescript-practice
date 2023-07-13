@@ -1,6 +1,6 @@
 import React from 'react';
 
-const myFunctionComponent = (props: { enabled: boolean }) => {
+const MyFunctionComponent = (props: { enabled: boolean }) => {
     return null;
 };
 
@@ -14,7 +14,7 @@ class MyClassComponent extends React.Component<{
 type PropsForm = any
 
 //Result
-type FunctionComponentProps = PropsForm<typeof myFunctionComponent>
+type FunctionComponentProps = PropsForm<typeof MyFunctionComponent>
 // {enabled: boolean}
 
 type ClassComponentProps = PropsForm<MyClassComponent>
