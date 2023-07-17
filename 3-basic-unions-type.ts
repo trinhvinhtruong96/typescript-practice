@@ -1,4 +1,4 @@
-// Ex-1.Add type for user with gender is one of "male", "female", "unknown"
+// Ex-1. Add type for user with gender is one of "male", "female", "unknown"
 const user = {
 	name: "Huy dep chai",
 	age: 18,
